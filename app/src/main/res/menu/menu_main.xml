@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_hot"
+        android:title="@string/hot_manga_updates"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_project"
+        android:title="@string/new_project_updates"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_chapter"
+        android:title="@string/new_chapter_updates"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="never"/>
+</menu>

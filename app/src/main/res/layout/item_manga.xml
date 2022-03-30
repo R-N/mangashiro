@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manga_frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintDimensionRatio="W,74:105">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/manga_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/manga_title"
+            style="@style/OverlayText"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:background="@drawable/background_text_gradient"
+            android:text="Manga\nTitle"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/manga_chapter"
+            style="@style/FloatingText"
+            android:layout_gravity="top|end"
+            android:text="Ch. 0"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/OverlaySelection"
+            android:adjustViewBounds="true"
+            app:srcCompat="?android:attr/selectableItemBackground" />
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    style="@style/ButtonBackground"
+    >
+
+    <TextView
+        android:id="@+id/chapter_title"
+        style="@style/LinkText"
+        android:text="TextView"
+        android:textSize="18sp" />
+</LinearLayout>

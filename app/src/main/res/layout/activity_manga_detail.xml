@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manga_swiperefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mangadetail.MangaDetailActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/detail_header"
+            style="@style/Section"
+            android:layout_width="match_parent"
+            android:layout_height="224dp"
+            android:background="@color/blackTransparent75">
+
+            <ImageView
+                android:id="@+id/manga_cover"
+                android:layout_width="wrap_content"
+                android:layout_height="224dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <ScrollView
+                android:id="@+id/detail_scroll"
+                style="@style/VerticalScrollView"
+                android:layout_marginStart="@dimen/horizontal_margin"
+                android:layout_marginLeft="@dimen/horizontal_margin"
+                android:layout_toRightOf="@+id/manga_cover"
+                android:layout_toEndOf="@+id/manga_cover">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/manga_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Manga\nTitle"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/desc_rating"
+                        style="@style/DescName"
+                        android:layout_below="@+id/manga_title"
+                        android:text="@string/rating" />
+
+                    <TextView
+                        android:id="@+id/manga_rating"
+                        style="@style/DescValue"
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/manga_title"
+                        android:layout_toRightOf="@+id/desc_rating"
+                        android:gravity="right|end"
+                        android:text="0.0/5.0"
+                        android:layout_toEndOf="@+id/desc_rating" />
+
+                    <TextView
+                        android:id="@+id/desc_author"
+                        style="@style/DescName"
+                        android:layout_below="@+id/manga_rating"
+                        android:text="@string/author" />
+
+                    <TextView
+                        android:id="@+id/manga_author"
+                        style="@style/DescValue"
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/manga_rating"
+                        android:layout_toRightOf="@+id/desc_author"
+                        android:gravity="right|end"
+                        android:text="author"
+                        android:layout_toEndOf="@+id/desc_author" />
+
+                    <TextView
+                        android:id="@+id/desc_status"
+                        style="@style/DescName"
+                        android:layout_below="@+id/manga_author"
+                        android:text="@string/status" />
+
+                    <TextView
+                        android:id="@+id/manga_status"
+                        style="@style/DescValue"
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/manga_author"
+                        android:layout_toRightOf="@+id/desc_status"
+                        android:gravity="right|end"
+                        android:text="status"
+                        android:layout_toEndOf="@+id/desc_status" />
+
+                    <TextView
+                        android:id="@+id/desc_chapter"
+                        style="@style/DescName"
+                        android:layout_below="@+id/manga_status"
+                        android:text="@string/latest_chapter" />
+
+                    <TextView
+                        android:id="@+id/manga_chapter"
+                        style="@style/DescValue"
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/manga_status"
+                        android:layout_toRightOf="@+id/desc_chapter"
+                        android:gravity="right|end"
+                        android:text="latest chapter"
+                        android:layout_toEndOf="@+id/desc_chapter" />
+
+                    <TextView
+                        android:id="@+id/desc_update"
+                        style="@style/DescName"
+                        android:layout_below="@+id/manga_chapter"
+                        android:text="@string/latest_update" />
+
+                    <TextView
+                        android:id="@+id/manga_update"
+                        style="@style/DescValue"
+                        android:layout_width="match_parent"
+                        android:layout_below="@+id/manga_chapter"
+                        android:layout_toRightOf="@+id/desc_update"
+                        android:gravity="right|end"
+                        android:text="latest update"
+                        android:layout_toEndOf="@+id/desc_update" />
+                </RelativeLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:id="@+id/chapter_scroll"
+            style="@style/VerticalScrollView"
+            android:layout_below="@+id/detail_header"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    style="@style/Section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/desc_synopsis"
+                        style="@style/DescName"
+                        android:text="Synopsis/Description" />
+
+                    <TextView
+                        android:id="@+id/manga_synopsis"
+                        style="@style/Paragraph"
+                        android:layout_below="@+id/desc_synopsis"
+                        android:editable="false"
+                        android:includeFontPadding="true"
+                        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        android:textAppearance="@style/Paragraph" />
+
+                    <TextView
+                        android:id="@+id/desc_tags"
+                        style="@style/DescName"
+                        android:layout_below="@+id/manga_synopsis"
+                        android:layout_marginTop="@dimen/vertical_margin"
+                        android:gravity="left|center_vertical"
+                        android:text="@string/tags" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/manga_tags"
+                        android:layout_below="@+id/desc_tags"
+                        style="@style/HorizontalListRV"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/Section"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chapters"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/manga_chapters"
+                        style="@style/VerticalListRV"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:nestedScrollingEnabled="false"
+                        >
+                    </androidx.recyclerview.widget.RecyclerView>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

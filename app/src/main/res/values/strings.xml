@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mangashiro</string>
+    <string name="author">Author</string>
+    <string name="status">Status</string>
+    <string name="latest_chapter">Latest Chapter</string>
+    <string name="latest_update">Latest Update</string>
+    <string name="rating">Rating</string>
+    <string name="tags">Tags</string>
+    <string name="chapters">Chapters</string>
+    <string name="hot_manga_updates">HOT MANGA UPDATE</string>
+    <string name="new_project_updates">Update Project Terbaru Mangashiro</string>
+    <string name="new_chapter_updates">Update Chapter Terbaru</string>
+    <string name="refresh">Refresh</string>
+    <string name="view_in_browser">View in browser</string>
+    <string name="refresh_failed">Failed to refresh.\nPlease check your internet connection</string>
+    <string name="refresh_error">There was an error.\nData might not have been loaded correctly.</string>
+    <string name="no_browser_error">Error: You don\'t have any browser app</string>
+</resources>

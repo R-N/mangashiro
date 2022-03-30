@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ButtonBackground"
+    android:layout_marginRight="@dimen/horizontal_margin_small"
+    >
+
+    <TextView
+        android:id="@+id/manga_tag"
+        style="@style/LinkText"
+        android:text="TextView" />
+
+</LinearLayout>

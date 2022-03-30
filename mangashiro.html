@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" itemscope="itemscope" itemtype="http://schema.org/WebPage" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+
+<head profile="http://gmpg.org/xfn/11">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mangashiro - Baca Manga Bahasa Indonesia</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://mangashiro.net/wp-content/themes/mangareader/style.css" type="text/css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <link href='//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css' rel='stylesheet' />
+    <link rel="pingback" href="https://mangashiro.net/xmlrpc.php" />
+    <script type="text/javascript" src="https://mangashiro.net/wp-content/themes/mangareader/assets/js/jquery.barrating.min.js"></script>
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.css" media="screen">
+    <link rel="stylesheet" href="https://mangashiro.net/wp-content/themes/mangareader/assets/css/fontawesome-stars.css">
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            //Check to see if the window is top if not then display button
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollToTop').fadeIn();
+                } else {
+                    $('.scrollToTop').fadeOut();
+                }
+            });
+
+            //Click event to scroll to top
+            $('.scrollToTop').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $(".ms").click(function() {
+                $(".searchx").toggleClass("mse");
+            });
+        });
+    </script>
+    <style>
+        #nav,
+        .recommended h2,
+        .pagination span.page-numbers.current,
+        #commentform #submit,
+        .nav_apb a,
+        .scrollToTop,
+        #main-menu,
+        .flickity-page-dots li.dot,
+        .advancedsearch button.searchz,
+        .radiox input:checked~.checkmarkx,
+        .reply {
+            background: #0039ad
+        }
+
+        .popularmanga h3 span,
+        .releases h1 span,
+        .sidebar_right h3 {
+            border-color: #0039ad
+        }
+
+        .sidebar_right .serieslist ul li .leftseries h2 a,
+        a,
+        .animeinfo h2,
+        .batch a {
+            color: #0039ad
+        }
+
+        .searchx #form #s {
+            border-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .searchx #form #submit {
+            background: none;
+        }
+
+        .bxcl h3,
+        .batch h3,
+        .releases h2 span,
+        .advancedsearch button.searchz {
+            border-color: #0039ad;
+        }
+    </style>
+    <meta name="description" content="Baca Manga Bahasa Indonesia" />
+    <link rel="canonical" href="https://mangashiro.net/" />
+    <link rel="next" href="https://mangashiro.net/page/2/" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Mangashiro - Baca Manga Bahasa Indonesia" />
+    <meta property="og:description" content="Baca Manga Bahasa Indonesia" />
+    <meta property="og:url" content="https://mangashiro.net/" />
+    <meta property="og:site_name" content="Mangashiro" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Baca Manga Bahasa Indonesia" />
+    <meta name="twitter:title" content="Mangashiro - Baca Manga Bahasa Indonesia" />
+    <script type='application/ld+json'>
+        {
+            "@context": "https:\/\/schema.org",
+            "@type": "WebSite",
+            "@id": "#website",
+            "url": "https:\/\/mangashiro.net\/",
+            "name": "Mangashiro",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https:\/\/mangashiro.net\/?s={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/mangashiro.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"
+            }
+        };
+        ! function(a, b, c) {
+            function d(a, b) {
+                var c = String.fromCharCode;
+                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0);
+                var d = k.toDataURL();
+                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0);
+                var e = k.toDataURL();
+                return d === e
+            }
+
+            function e(a) {
+                var b;
+                if (!l || !l.fillText) return !1;
+                switch (l.textBaseline = "top", l.font = "600 32px Arial", a) {
+                    case "flag":
+                        return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b);
+                    case "emoji":
+                        return b = d([55358, 56760, 9792, 65039], [55358, 56760, 8203, 9792, 65039]), !b
+                }
+                return !1
+            }
+
+            function f(a) {
+                var c = b.createElement("script");
+                c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+            }
+            var g, h, i, j, k = b.createElement("canvas"),
+                l = k.getContext && k.getContext("2d");
+            for (j = Array("flag", "emoji"), c.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, i = 0; i < j.length; i++) c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]);
+            c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function() {
+                c.DOMReady = !0
+            }, c.supports.everything || (h = function() {
+                c.readyCallback()
+            }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function() {
+                "complete" === b.readyState && c.readyCallback()
+            })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='dashicons-css' href='https://mangashiro.net/wp-includes/css/dashicons.min.css?ver=4.9.8' type='text/css' media='all' />
+    <script type='text/javascript' src='https://mangashiro.net/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='https://mangashiro.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+    <link rel='https://api.w.org/' href='https://mangashiro.net/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mangashiro.net/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://mangashiro.net/wp-includes/wlwmanifest.xml" />
+    <meta name="generator" content="WordPress 4.9.8" />
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var sf_position = '0';
+        var sf_templates = "<a href=\"{search_url_escaped}\">View All Results<\/a>";
+        var sf_input = '.search-live';
+        jQuery(document).ready(function() {
+            jQuery(sf_input).ajaxyLiveSearch({
+                "expand": false,
+                "searchUrl": "https:\/\/mangashiro.net\/?s=%s&post_type=manga",
+                "text": "Search",
+                "delay": 50,
+                "iwidth": 180,
+                "width": 315,
+                "ajaxUrl": "https:\/\/mangashiro.net\/wp-admin\/admin-ajax.php",
+                "rtl": 0
+            });
+            jQuery(".live-search_ajaxy-selective-input").keyup(function() {
+                var width = jQuery(this).val().length * 8;
+                if (width < 50) {
+                    width = 50;
+                }
+                jQuery(this).width(width);
+            });
+            jQuery(".live-search_ajaxy-selective-search").click(function() {
+                jQuery(this).find(".live-search_ajaxy-selective-input").focus();
+            });
+            jQuery(".live-search_ajaxy-selective-close").click(function() {
+                jQuery(this).parent().remove();
+            });
+        });
+        /* ]]> */
+    </script>
+    <link rel="icon" href="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/02/favicon-MANGASHIRO.png" sizes="32x32" />
+    <link rel="icon" href="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/02/favicon-MANGASHIRO.png" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/02/favicon-MANGASHIRO.png" />
+    <meta name="msapplication-TileImage" content="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/02/favicon-MANGASHIRO.png" /> </head>
+
+<body class="pace-done" itemscope="itemscope" itemtype="http://schema.org/WebPage">
+    <div id="all">
+        <nav id="main-menu">
+            <div class="centernav">
+                <div class="bound">
+                    <header role="banner" itemscope itemtype="http://schema.org/WPHeader">
+                        <div class="namemob"> <a title="Mangashiro - Baca Manga Bahasa Indonesia" itemprop="url" href="https://mangashiro.net/"> Mangashiro </a> </div>
+                        <div itemscope="itemscope" itemtype="http://schema.org/Brand" class="site-branding logox">
+                            <h1 class="logos"> <a title="Mangashiro - Baca Manga Bahasa Indonesia" itemprop="url" href="https://mangashiro.net/"><img itemprop="logo" src="https://mangashiro.net/wp-content/uploads/2018/04/Logo-terbaru-berwarna.png" alt="Mangashiro - Baca Manga Bahasa Indonesia"><span class="hdl">Mangashiro - Baca Manga Bahasa Indonesia</span></a> </h1>
+                            <meta itemprop="name" content="Mangashiro - Baca Manga Bahasa Indonesia" /> </div>
+                    </header> <span itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation"> <label for="show-menu" class="show-menu"><i class="dashicons dashicons-menu"></i></label> <input type="checkbox" id="show-menu" role="button"> <ul id="menu-menu" class="menu"><li id="menu-item-3449" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-3449"><a href="/" itemprop="url"><span itemprop="name">Home</span></a>
+                    </li>
+                    <li id="menu-item-20987" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20987"><a href="https://mangashiro.net/daftar-manga/" itemprop="url"><span itemprop="name">Daftar manga</span></a></li>
+                    <li id="menu-item-72467" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72467"><a href="https://mangashiro.net/project/" itemprop="url"><span itemprop="name">Project</span></a></li>
+                    <li id="menu-item-72466" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72466"><a href="https://mangashiro.net/adv-search/" itemprop="url"><span itemprop="name">Adv Search</span></a></li>
+                    <li id="menu-item-32481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-32481"><a href="https://mangashiro.net/staff/" itemprop="url"><span itemprop="name">Staff</span></a></li>
+                    <li id="menu-item-63055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-63055"><a href="https://shironime.web.id/" itemprop="url"><span itemprop="name">Anime</span></a></li>
+                    </ul>
+                    </span>
+                    <div class="searchx">
+                        <form action="https://mangashiro.net/" id="form" method="get" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+                            <meta itemprop="target" content="https://mangashiro.net/?s={query}" /> <input id="s" itemprop="query-input" class="search-live" type="text" placeholder="Search..." name="s" /> <button type="submit" id="submit"><span class="dashicons dashicons-search"></span></button> </form>
+                    </div>
+                    <div class="ms"><span class="dashicons dashicons-search"></span></div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </nav>
+        <div class="kln">
+            <div style='padding-left:1px; margin-top:1px;float:left;'> <a href="//cmobet.biz/" rel="Dofollow" title="Judi Bola" target="_blank"><img src="//4.bp.blogspot.com/-SrU7djjCBlU/Wrms02LNGzI/AAAAAAAAYJA/rSEn6kywsegmyq33SpDPXo8URYXc3nuZgCLcBGAs/s1600/cmo-468-x-60.gif" alt="Agen Sbobet" width="569" height="45" style="margin-bottom:-5px;"></a> </div>
+            <div style='padding-right:1px; margin-top:1px;float:right;'> <a href="//bolagalaxy.net/" rel="Dofollow" title="judi bola" target="_blank"><img src="//2.bp.blogspot.com/-MJlTRDHXf7c/WzXQqld3wRI/AAAAAAAA2fI/n4wq4vruAvk2MZEhc1nsw96qICfySvUWgCLcBGAs/s1600/Cyberbola.gif" alt="Agen SBOBET" width="569" height="45" style="margin-bottom:-5px;"></a> </div> <br>
+            <div style='padding-left:1px; margin-top:1px;float:left;'> <a href="http://panenroyal.com/ref.php?ref=PANENSUCI" rel="Dofollow" title="PANEN POKER" target="_blank"><img src="//4.bp.blogspot.com/-_l0GtrTJ_Po/WuiLwzhkgKI/AAAAAAABh3A/DGVGbCMe_Ug0BRmhWfSlv8CbphXTKmbowCLcBGAs/s1600/panen%2Bmei.gif" alt="PANEN POKER" width="569" height="45" style="margin-bottom:-5px;"></a> </div>
+            <div style='padding-right:1px; margin-top:1px;float:right;'> <a href="//www.wismaqq.net/ref.php?ref=SHIROREF" rel="Dofollow" title="WISMAQQ" target="_blank"><img src="//3.bp.blogspot.com/-fn_JlXkHUkw/WzIJKt1grGI/AAAAAAAA1_A/tBYdCMFUV2oWglcs1UYQzNcrS9PDnc2NACLcBGAs/s1600/Webp.net-resizeimage%2B%25282%2529.gif" alt="WISMAQQ" width="569" height="45" style="margin-bottom:-5px;"></a> </div> <br>
+            <div style='padding-left:1px; margin-top:1px;float:left;'> <a href="//gatot365.com/" rel="Dofollow" title="GATOT365" target="_blank"><img src="//2.bp.blogspot.com/-JqB-CUb7oJU/WxAeQ_nQORI/AAAAAAABibs/r1vaM0k_AJgK6dHRm3915n58BOqoHTRawCLcBGAs/s1600/gatot365_728x90.gif" alt="GATOT365" width="569" height="45" style="margin-bottom:-5px;"></a> </div>
+            <div style='padding-right:1px; margin-top:1px;float:right;'> <a href="//avip88.com/" rel="Dofollow" title="Agen Bola Online Sbobet, MaxBet, dan Situs Judi Online Vip Bola88" target="_blank"><img src="//3.bp.blogspot.com/-UnH0XABqRrA/Wyn4itSE3CI/AAAAAAAA0zI/fKUmdhZYc1g34eqyPCErbJFeZwcF2_1zQCLcBGAs/s1600/Avip88.gif" alt="Agen Bola Online" width="569" height="45" style="margin-bottom:-5px;"></a> </div>
+        </div>
+        <div id="pusat">
+            <div id="main">
+                <div id="content">
+                    <div class="postsbody">
+                        <div class="stl">Hot Manga Update</div>
+                        <div class="carousel" data-flickity='{ "autoPlay": true,"wrapAround": true }'>
+                            <div class="carousel-cell">
+                                <a class="series" rel="24276" href="https://mangashiro.net/manga/star-martial-god-technique/" title="Star Martial God Technique">
+                                    <div class="ltc">Ch. 169</div> <img src=https://2.bp.blogspot.com/-lIf2S31VDIo/W3VPiJXnGCI/AAAAAAAA99E/JC3rjFji11s8FOH8XaO8dGpfv-BeEGZ_wCLcBGAs/s1600/star-martial.jpg />
+                                    <div class="ctl">
+                                        <h2>Star Martial God Technique</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell">
+                                <a class="series" rel="21173" href="https://mangashiro.net/manga/bokutachi-wa-benkyou-ga-dekinai/" title="Bokutachi wa Benkyou ga Dekinai">
+                                    <div class="ltc">Ch. 63</div> <img src=https://i2.wp.com/safe.mangashiro.net/wp-content/uploads/2017/03/Bokutachi-wa-Benkyou-ga-Dekinai-cvr-7.jpg />
+                                    <div class="ctl">
+                                        <h2>Bokutachi wa Benkyou ga Dekinai</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell">
+                                <a class="series" rel="24240" href="https://mangashiro.net/manga/soul-land-ii/" title="Soul Land II">
+                                    <div class="ltc">Ch. 153</div> <img src=https://i0.wp.com/safe.mangashiro.net/wp-content/uploads/2017/03/Soul-Land-2-Cover.jpg />
+                                    <div class="ctl">
+                                        <h2>Soul Land II</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell">
+                                <a class="series" rel="21175" href="https://mangashiro.net/manga/boruto-naruto-next-generations/" title="Boruto: Naruto Next Generations">
+                                    <div class="ltc">Ch. 26</div> <img src=https://myanimelist.cdn-dena.com/images/manga/3/181968.jpg />
+                                    <div class="ctl">
+                                        <h2>Boruto: Naruto Next Generations</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell">
+                                <a class="series" rel="21209" href="https://mangashiro.net/manga/choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu/" title="Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!">
+                                    <div class="ltc">Ch. 22</div> <img src=https://myanimelist.cdn-dena.com/images/manga/3/184621.jpg />
+                                    <div class="ctl">
+                                        <h2>Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell">
+                                <a class="series" rel="21236" href="https://mangashiro.net/manga/domestic-na-kanojo/" title="Domestic na Kanojo">
+                                    <div class="ltc">Ch. 140</div> <img src=https://i3.wp.com/safe.mangashiro.net/wp-content/uploads/2017/03/domestic-no-kanojo-cvr-19.jpg />
+                                    <div class="ctl">
+                                        <h2>Domestic na Kanojo</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell">
+                                <a class="series" rel="21862" href="https://mangashiro.net/manga/kiss-x-death/" title="Kiss x Death">
+                                    <div class="ltc">Ch. 45</div> <img src=https://myanimelist.cdn-dena.com/images/manga/1/149624.jpg />
+                                    <div class="ctl">
+                                        <h2>Kiss x Death</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell">
+                                <a class="series" rel="22190" href="https://mangashiro.net/manga/masamune-kun-no-revenge/" title="Masamune-kun no Revenge">
+                                    <div class="ltc">Ch. 49</div> <img src=https://i2.wp.com/safe.mangashiro.net/wp-content/uploads/2017/03/26841070_2018565658415359_8935620620942999203_o.jpg />
+                                    <div class="ctl">
+                                        <h2>Masamune-kun no Revenge</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell">
+                                <a class="series" rel="24558" href="https://mangashiro.net/manga/wu-dong-qian-kun/" title="Wu Dong Qian Kun">
+                                    <div class="ltc">Ch. 74</div> <img src=https://i3.wp.com/safe.mangashiro.net/wp-content/uploads/2017/03/wu-dong-qian-kun.jpg />
+                                    <div class="ctl">
+                                        <h2>Wu Dong Qian Kun</h2>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="carousel-cell">
+                                <a class="series" rel="21892" href="https://mangashiro.net/manga/koi-to-uso/" title="Koi to Uso">
+                                    <div class="ltc">Ch. 162</div> <img src=https://myanimelist.cdn-dena.com/images/manga/2/148055.jpg />
+                                    <div class="ctl">
+                                        <h2>Koi to Uso</h2>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="mrgn">
+                            <div class="allgreen">
+                                <div class="kln"><a href="http://103.10.200.61/home" rel="Dofollow" title="TEXASPOKER" target="_blank"><img src="https://4.bp.blogspot.com/-xSNUAfA1eBw/W2gPKh8l3dI/AAAAAAAA8gI/Ie2vjsm38D8JT9s6RUPA4BRZ341y82r4gCLcBGAs/s1600/TPK-728X90-OPSI2.gif" alt="TEXASPOKER" width="750" height="90" style="margin-bottom:-5px;"></a> <br> <a href="http://103.10.200.57/" rel="Dofollow" title="WIGOBET" target="_blank"><img src="https://4.bp.blogspot.com/-6XmtrUsagOs/W2gQExQNwUI/AAAAAAAA8gQ/vp46dsag2s8emCVT124-XDwME3aveykeQCLcBGAs/s1600/WIGOBET-728x90-NEW.gif" alt="WIGOBET" width="750" height="90" style="margin-bottom:-5px;"></a></div>
+                                <div class="releases">
+                                    <h2><span>Update Project Terbaru Mangashiro</span></h2>
+                                </div>
+                                <div class="listthumbx project rating">
+                                    <ul>
+                                        <li>
+                                            <div class="thumbx"> <a rel="38678" class="series" href="https://mangashiro.net/manga/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo/" title="Saikyou no Shokugyou wa Yuusha demo Kenja demo naku Kanteishi (Kari) rashii desu yo?"><img width="422" height="600" src="https://i0.wp.com/mangashiro.net/wp-content/uploads/2017/08/saikyou.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="38678" class="series" href="https://mangashiro.net/manga/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo/" title="Saikyou no Shokugyou wa Yuusha demo Kenja demo naku Kanteishi (Kari) rashii desu yo?">
+                                                    <h3>Saikyou no Shokugyou wa Yuusha demo Kenja demo naku Kanteishi (Kari) rashii desu yo?</h3>
+                                                </a>
+                                                <div class="rtg"> <select class="score" data-current-rating="3.9" autocomplete="off" style="display:none"> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> </select> <span>7.80</span> </div>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-chapter-9-bahasa-indonesia/"> Chapter 9</a> <i>10 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-chapter-8-bahasa-indonesia/"> Chapter 8</a> <i>2 months ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="24276" class="series" href="https://mangashiro.net/manga/star-martial-god-technique/" title="Star Martial God Technique"><img width="800" height="1120" src="https://i0.wp.com/mangashiro.net/wp-content/uploads/2017/03/star-martial.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> <span class="hot">Hot</span> </div>
+                                            <div class="lx">
+                                                <a rel="24276" class="series" href="https://mangashiro.net/manga/star-martial-god-technique/" title="Star Martial God Technique">
+                                                    <h3>Star Martial God Technique</h3>
+                                                </a>
+                                                <div class="rtg"> <select class="score" data-current-rating="4.25" autocomplete="off" style="display:none"> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> </select> <span>8.50</span> </div>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/star-martial-god-technique-chapter-169-bahasa-indonesia/"> Chapter 169</a> <i>10 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/star-martial-god-technique-chapter-168-bahasa-indonesia/"> Chapter 168</a> <i>3 days ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="24493" class="series" href="https://mangashiro.net/manga/uchi-no-musume-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai/" title="Uchi no Musume no Tame naraba Ore wa Moshikashitara Maou mo Taoseru kamo Shirenai."><img width="245" height="350" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2017/03/For-My-Daughter.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="24493" class="series" href="https://mangashiro.net/manga/uchi-no-musume-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai/" title="Uchi no Musume no Tame naraba Ore wa Moshikashitara Maou mo Taoseru kamo Shirenai.">
+                                                    <h3>Uchi no Musume no Tame naraba Ore wa Moshikashitara Maou mo Taoseru kamo Shirenai.</h3>
+                                                </a>
+                                                <div class="rtg"> <select class="score" data-current-rating="3.955" autocomplete="off" style="display:none"> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> </select> <span>7.91</span> </div>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/uchi-no-musume-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-chapter-24-bahasa-indonesia/"> Chapter 24</a> <i>2 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/uchi-no-musume-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-chapter-23-bahasa-indonesia/"> Chapter 23</a> <i>1 week ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="21173" class="series" href="https://mangashiro.net/manga/bokutachi-wa-benkyou-ga-dekinai/" title="Bokutachi wa Benkyou ga Dekinai"><img width="814" height="1280" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2017/03/Bokutachi-wa-Benkyou-ga-Dekinai-cvr-7.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> <span class="hot">Hot</span> </div>
+                                            <div class="lx">
+                                                <a rel="21173" class="series" href="https://mangashiro.net/manga/bokutachi-wa-benkyou-ga-dekinai/" title="Bokutachi wa Benkyou ga Dekinai">
+                                                    <h3>Bokutachi wa Benkyou ga Dekinai</h3>
+                                                </a>
+                                                <div class="rtg"> <select class="score" data-current-rating="3.615" autocomplete="off" style="display:none"> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> </select> <span>7.23</span> </div>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/bokutachi-wa-benkyou-ga-dekinai-chapter-64-bahasa-indonesia/"> Chapter 64</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/bokutachi-wa-benkyou-ga-dekinai-chapter-63-bahasa-indonesia/"> Chapter 63</a> <i>1 day ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="37864" class="series" href="https://mangashiro.net/manga/kuro-no-souzou-shoukanshi/" title="Kuro no Souzou Shoukanshi"><img width="523" height="738" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2017/08/48zKWUW.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="37864" class="series" href="https://mangashiro.net/manga/kuro-no-souzou-shoukanshi/" title="Kuro no Souzou Shoukanshi">
+                                                    <h3>Kuro no Souzou Shoukanshi</h3>
+                                                </a>
+                                                <div class="rtg"> <select class="score" data-current-rating="3.75" autocomplete="off" style="display:none"> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> </select> <span>7.50</span> </div>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/kuro-no-souzou-shoukanshi-chapter-10-bahasa-indonesia/"> Chapter 10</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/kuro-no-souzou-shoukanshi-chapter-9-bahasa-indonesia/"> Chapter 9</a> <i>4 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="21209" class="series" href="https://mangashiro.net/manga/choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu/" title="Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!"><img width="840" height="1195" src="https://i0.wp.com/mangashiro.net/wp-content/uploads/2017/03/choujin_koukousei-tachi_wa_isekai_demo_yoyuu_de_ikinuku_you_desu.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> <span class="hot">Hot</span> </div>
+                                            <div class="lx">
+                                                <a rel="21209" class="series" href="https://mangashiro.net/manga/choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu/" title="Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!">
+                                                    <h3>Choujin Koukousei-tachi wa Isekai demo Yoyuu de Ikinuku you desu!</h3>
+                                                </a>
+                                                <div class="rtg"> <select class="score" data-current-rating="3.79" autocomplete="off" style="display:none"> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> </select> <span>7.58</span> </div>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu-chapter-22-bahasa-indonesia/"> Chapter 22</a> <i>2 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/choujin-koukousei-tachi-wa-isekai-demo-yoyuu-de-ikinuku-you-desu-chapter-21-bahasa-indonesia/"> Chapter 21</a> <i>2 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="kln">
+                                    <div style='padding-left:1px; margin-top:1px;float:left;'> <a href="https://mangashiro.net/contact-admin/" rel="Dofollow" title="SLOT" target="_blank"><img src="https://1.bp.blogspot.com/-O3O7yt2DY3M/W3WL7Fv4PgI/AAAAAAAA9-Y/PJ2Vsbgkuuk8BSx-knbf_hkMWqYjQzRHQCLcBGAs/s1600/slot%2Biklan%2B468x60.png" alt="SLOT" width="378" height="90" style="margin-bottom:-5px;"></a> </div>
+                                    <div style='padding-right:1px; margin-top:1px;float:right;'> <a href="https://mangashiro.net/contact-admin/" rel="Dofollow" title="SLOT" target="_blank"><img src="https://1.bp.blogspot.com/-O3O7yt2DY3M/W3WL7Fv4PgI/AAAAAAAA9-Y/PJ2Vsbgkuuk8BSx-knbf_hkMWqYjQzRHQCLcBGAs/s1600/slot%2Biklan%2B468x60.png" alt="SLOT" width="378" height="90" style="margin-bottom:-5px;"></a> </div>
+                                </div>
+                                <div class="releases">
+                                    <h2><span>Update Chapter Terbaru</span></h2>
+                                </div>
+                                <div class="listthumbx">
+                                    <ul>
+                                        <li>
+                                            <div class="thumbx"> <a rel="63231" class="series" href="https://mangashiro.net/manga/hinomaru-zumou/" title="Hinomaru zumou"><img width="814" height="1280" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/05/hinomaru.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="63231" class="series" href="https://mangashiro.net/manga/hinomaru-zumou/" title="Hinomaru zumou">
+                                                    <h3>Hinomaru zumou</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/hinomaru-zumou-chapter-185-bahasa-indonesia/"> Chapter 185</a> <i>4 mins ago</i> </span> <span class="cli"><a href="https://mangashiro.net/hinomaru-zumou-chapter-184-bahasa-indonesia/"> Chapter 184</a> <i>4 mins ago</i> </span> <span class="cli"><a href="https://mangashiro.net/hinomaru-zumou-chapter-183-bahasa-indonesia/"> Chapter 183</a> <i>6 days ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="41083" class="series" href="https://mangashiro.net/manga/isekai-nonbiri-nouka/" title="Isekai Nonbiri Nouka"><img width="350" height="496" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2017/10/isekai-nonbiri-nouka-22995.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="41083" class="series" href="https://mangashiro.net/manga/isekai-nonbiri-nouka/" title="Isekai Nonbiri Nouka">
+                                                    <h3>Isekai Nonbiri Nouka</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/isekai-nonbiri-nouka-chapter-41-bahasa-indonesia/"> Chapter 41</a> <i>14 mins ago</i> </span> <span class="cli"><a href="https://mangashiro.net/isekai-nonbiri-nouka-chapter-40-bahasa-indonesia/"> Chapter 40</a> <i>6 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/isekai-nonbiri-nouka-chapter-39-bahasa-indonesia/"> Chapter 39</a> <i>2 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="50419" class="series" href="https://mangashiro.net/manga/yuzumori-san/" title="Yuzumori-san"><img width="847" height="1200" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2018/01/yuzumori-san-3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="50419" class="series" href="https://mangashiro.net/manga/yuzumori-san/" title="Yuzumori-san">
+                                                    <h3>Yuzumori-san</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/yuzumori-san-chapter-17-bahasa-indonesia/"> Chapter 17</a> <i>16 mins ago</i> </span> <span class="cli"><a href="https://mangashiro.net/yuzumori-san-chapter-16-bahasa-indonesia/"> Chapter 16</a> <i>2 weeks ago</i> </span> <span class="cli"><a href="https://mangashiro.net/yuzumori-san-chapter-15-bahasa-indonesia/"> Chapter 15</a> <i>2 months ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="64488" class="series" href="https://mangashiro.net/manga/rougo-ni-sonaete-i-sekai-de-8-man-mai-no-kinka-o-tamemasu/" title="Rougo ni sonaete i sekai de 8 man-mai no kinka o tamemasu"><img width="600" height="854" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/06/rougo.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="64488" class="series" href="https://mangashiro.net/manga/rougo-ni-sonaete-i-sekai-de-8-man-mai-no-kinka-o-tamemasu/" title="Rougo ni sonaete i sekai de 8 man-mai no kinka o tamemasu">
+                                                    <h3>Rougo ni sonaete i sekai de 8 man-mai no kinka o tamemasu</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/rougo-ni-sonaete-i-sekai-de-8-man-mai-no-kinka-o-tamemasu-chapter-10-bahasa-indonesia/"> Chapter 10</a> <i>11 mins ago</i> </span> <span class="cli"><a href="https://mangashiro.net/rougo-ni-sonaete-i-sekai-de-8-man-mai-no-kinka-o-tamemasu-chapter-9-bahasa-indonesia/"> Chapter 9</a> <i>1 week ago</i> </span> <span class="cli"><a href="https://mangashiro.net/rougo-ni-sonaete-i-sekai-de-8-man-mai-no-kinka-o-tamemasu-chapter-8-bahasa-indonesia/"> Chapter 8</a> <i>2 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="72548" class="series" href="https://mangashiro.net/manga/ore-dake-haireru-kakushi-dungeon-kossori-kitaete-sekai-saikyou/" title="Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou"><img width="211" height="300" src="https://i0.wp.com/mangashiro.net/wp-content/uploads/2018/08/Ore-dake-Haireru-Kakushi-Dungeon-Kossori-Kitaete-Sekai-Saikyou.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="72548" class="series" href="https://mangashiro.net/manga/ore-dake-haireru-kakushi-dungeon-kossori-kitaete-sekai-saikyou/" title="Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou">
+                                                    <h3>Ore dake Haireru Kakushi Dungeon: Kossori Kitaete Sekai Saikyou</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/ore-dake-haireru-kakushi-dungeon-kossori-kitaete-sekai-saikyou-chapter-2-bahasa-indonesia/"> Chapter 2</a> <i>13 mins ago</i> </span> <span class="cli"><a href="https://mangashiro.net/ore-dake-haireru-kakushi-dungeon-kossori-kitaete-sekai-saikyou-chapter-1-bahasa-indonesia/"> Chapter 1</a> <i>4 days ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="55274" class="series" href="https://mangashiro.net/manga/jigokuraku/" title="Jigokuraku"><img width="814" height="1280" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2018/03/jigokuraku.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="55274" class="series" href="https://mangashiro.net/manga/jigokuraku/" title="Jigokuraku">
+                                                    <h3>Jigokuraku</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/jigokuraku-chapter-15-bahasa-indonesia/"> Chapter 15</a> <i>8 mins ago</i> </span> <span class="cli"><a href="https://mangashiro.net/jigokuraku-chapter-14-bahasa-indonesia/"> Chapter 14</a> <i>2 weeks ago</i> </span> <span class="cli"><a href="https://mangashiro.net/jigokuraku-chapter-13-bahasa-indonesia/"> Chapter 13</a> <i>4 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="62301" class="series" href="https://mangashiro.net/manga/martial-peak/" title="Martial Peak"><img width="220" height="300" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/05/Martial-Peak-Cover.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="62301" class="series" href="https://mangashiro.net/manga/martial-peak/" title="Martial Peak">
+                                                    <h3>Martial Peak</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/martial-peak-chapter-28-bahasa-indonesia/"> Chapter 28</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/martial-peak-chapter-27-bahasa-indonesia/"> Chapter 27</a> <i>1 week ago</i> </span> <span class="cli"><a href="https://mangashiro.net/martial-peak-chapter-26-bahasa-indonesia/"> Chapter 26</a> <i>2 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="70075" class="series" href="https://mangashiro.net/manga/holy-ancestor/" title="Holy Ancestor"><img width="350" height="477" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2018/07/Holy-Ancestor.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="70075" class="series" href="https://mangashiro.net/manga/holy-ancestor/" title="Holy Ancestor">
+                                                    <h3>Holy Ancestor</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/holy-ancestor-chapter-47-bahasa-indonesia/"> Chapter 47</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/holy-ancestor-chapter-46-bahasa-indonesia/"> Chapter 46</a> <i>4 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/holy-ancestor-chapter-45-bahasa-indonesia/"> Chapter 45</a> <i>5 days ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="30451" class="series" href="https://mangashiro.net/manga/fire-brigade-of-flames/" title="Fire Brigade of Flames"><img width="335" height="500" src="https://i1.wp.com/mangashiro.net/wp-content/uploads/2017/03/E54MaiP.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="30451" class="series" href="https://mangashiro.net/manga/fire-brigade-of-flames/" title="Fire Brigade of Flames">
+                                                    <h3>Fire Brigade of Flames</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/fire-brigade-of-flames-chapter-136-bahasa-indonesia/"> Chapter 136</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/fire-brigade-of-flames-chapter-135-bahasa-indonesia/"> Chapter 135</a> <i>1 month ago</i> </span> <span class="cli"><a href="https://mangashiro.net/fire-brigade-of-flames-chapter-134-bahasa-indonesia/"> Chapter 134</a> <i>1 month ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="49537" class="series" href="https://mangashiro.net/manga/dungeon-nursery/" title="Dungeon Nursery"><img width="200" height="200" src="https://i1.wp.com/mangashiro.net/wp-content/uploads/2018/01/dungeon-nursery.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="49537" class="series" href="https://mangashiro.net/manga/dungeon-nursery/" title="Dungeon Nursery">
+                                                    <h3>Dungeon Nursery</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/dungeon-nursery-chapter-14-bahasa-indonesia/"> Chapter 14</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/dungeon-nursery-chapter-13-bahasa-indonesia/"> Chapter 13</a> <i>2 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/dungeon-nursery-chapter-12-bahasa-indonesia/"> Chapter 12</a> <i>1 month ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="71224" class="series" href="https://mangashiro.net/manga/yumizuka-iroha-wa-tejun-ga-daiji/" title="Yumizuka Iroha wa Tejun ga Daiji!"><img width="220" height="300" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/08/Yumizuka-Iroha-wa-Tejun-ga-Daiji.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="71224" class="series" href="https://mangashiro.net/manga/yumizuka-iroha-wa-tejun-ga-daiji/" title="Yumizuka Iroha wa Tejun ga Daiji!">
+                                                    <h3>Yumizuka Iroha wa Tejun ga Daiji!</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/yumizuka-iroha-wa-tejun-ga-daiji-chapter-5-bahasa-indonesia/"> Chapter 5</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/yumizuka-iroha-wa-tejun-ga-daiji-chapter-4-bahasa-indonesia/"> Chapter 4</a> <i>4 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/yumizuka-iroha-wa-tejun-ga-daiji-chapter-3-bahasa-indonesia/"> Chapter 3</a> <i>1 week ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="68715" class="series" href="https://mangashiro.net/manga/chuan-yue-xi-yuan-3000-hou/" title="Chuan Yue Xi Yuan 3000 Hou"><img width="490" height="669" src="https://i1.wp.com/mangashiro.net/wp-content/uploads/2018/07/Chuan-Yue-Xi-Yuan-3000-Hou.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="68715" class="series" href="https://mangashiro.net/manga/chuan-yue-xi-yuan-3000-hou/" title="Chuan Yue Xi Yuan 3000 Hou">
+                                                    <h3>Chuan Yue Xi Yuan 3000 Hou</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/chuan-yue-xi-yuan-3000-hou-chapter-12-bahasa-indonesia/"> Chapter 12</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/chuan-yue-xi-yuan-3000-hou-chapter-11-bahasa-indonesia/"> Chapter 11</a> <i>1 week ago</i> </span> <span class="cli"><a href="https://mangashiro.net/chuan-yue-xi-yuan-3000-hou-chapter-10-bahasa-indonesia/"> Chapter 10</a> <i>1 week ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="33876" class="series" href="https://mangashiro.net/manga/b-group-no-shounen/" title="B Group no Shounen"><img width="225" height="334" src="https://i1.wp.com/mangashiro.net/wp-content/uploads/2017/06/b-g.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="33876" class="series" href="https://mangashiro.net/manga/b-group-no-shounen/" title="B Group no Shounen">
+                                                    <h3>B Group no Shounen</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/b-group-no-shounen-chapter-21-bahasa-indonesia/"> Chapter 21</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/b-group-no-shounen-chapter-20-bahasa-indonesia/"> Chapter 20</a> <i>2 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/b-group-no-shounen-chapter-19-bahasa-indonesia/"> Chapter 19</a> <i>5 days ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="72417" class="series" href="https://mangashiro.net/manga/slime-life/" title="Slime Life"><img width="189" height="267" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/08/Slime-Life.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="72417" class="series" href="https://mangashiro.net/manga/slime-life/" title="Slime Life">
+                                                    <h3>Slime Life</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/slime-life-chapter-0-8-bahasa-indonesia/"> Chapter 0.8</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/slime-life-chapter-0-7-bahasa-indonesia/"> Chapter 0.7</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/slime-life-chapter-0-6-bahasa-indonesia/"> Chapter 0.6</a> <i>2 hours ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="57273" class="series" href="https://mangashiro.net/manga/miao-shou-xian-dan/" title="Miao Shou Xian Dan"><img width="728" height="1025" src="https://i1.wp.com/mangashiro.net/wp-content/uploads/2018/04/1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="57273" class="series" href="https://mangashiro.net/manga/miao-shou-xian-dan/" title="Miao Shou Xian Dan">
+                                                    <h3>Miao Shou Xian Dan</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/miao-shou-xian-dan-chapter-8-7-bahasa-indonesia/"> Chapter 8.7</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/miao-shou-xian-dan-chapter-8-6-bahasa-indonesia/"> Chapter 8.6</a> <i>2 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/miao-shou-xian-dan-chapter-8-5-bahasa-indonesia/"> Chapter 8.5</a> <i>6 days ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="38678" class="series" href="https://mangashiro.net/manga/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo/" title="Saikyou no Shokugyou wa Yuusha demo Kenja demo naku Kanteishi (Kari) rashii desu yo?"><img width="422" height="600" src="https://i0.wp.com/mangashiro.net/wp-content/uploads/2017/08/saikyou.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="38678" class="series" href="https://mangashiro.net/manga/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo/" title="Saikyou no Shokugyou wa Yuusha demo Kenja demo naku Kanteishi (Kari) rashii desu yo?">
+                                                    <h3>Saikyou no Shokugyou wa Yuusha demo Kenja demo naku Kanteishi (Kari) rashii desu yo?</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-chapter-9-bahasa-indonesia/"> Chapter 9</a> <i>10 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-chapter-8-bahasa-indonesia/"> Chapter 8</a> <i>2 months ago</i> </span> <span class="cli"><a href="https://mangashiro.net/saikyou-no-shokugyou-wa-yuusha-demo-kenja-demo-naku-kanteishi-kari-rashii-desu-yo-chapter-7-bahasa-indonesia/"> Chapter 7</a> <i>2 months ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="24276" class="series" href="https://mangashiro.net/manga/star-martial-god-technique/" title="Star Martial God Technique"><img width="800" height="1120" src="https://i0.wp.com/mangashiro.net/wp-content/uploads/2017/03/star-martial.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> <span class="hot">Hot</span> </div>
+                                            <div class="lx">
+                                                <a rel="24276" class="series" href="https://mangashiro.net/manga/star-martial-god-technique/" title="Star Martial God Technique">
+                                                    <h3>Star Martial God Technique</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/star-martial-god-technique-chapter-169-bahasa-indonesia/"> Chapter 169</a> <i>10 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/star-martial-god-technique-chapter-168-bahasa-indonesia/"> Chapter 168</a> <i>3 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/star-martial-god-technique-chapter-167-bahasa-indonesia/"> Chapter 167</a> <i>5 days ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="72748" class="series" href="https://mangashiro.net/manga/himeno-chan-ni-koi-wa-mada-hayai/" title="Himeno-chan ni Koi wa Mada Hayai"><img width="225" height="319" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2018/08/Himeno-chan-ni-Koi-wa-Mada-Hayai-Bahasa-Indonesia.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="72748" class="series" href="https://mangashiro.net/manga/himeno-chan-ni-koi-wa-mada-hayai/" title="Himeno-chan ni Koi wa Mada Hayai">
+                                                    <h3>Himeno-chan ni Koi wa Mada Hayai</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/himeno-chan-ni-koi-wa-mada-hayai-chapter-1-bahasa-indonesia/"> Chapter 1</a> <i>16 hours ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="69170" class="series" href="https://mangashiro.net/manga/the-great-conqueror/" title="The Great Conqueror"><img width="220" height="300" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2018/07/The_Great_Conqueror_Cover.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="69170" class="series" href="https://mangashiro.net/manga/the-great-conqueror/" title="The Great Conqueror">
+                                                    <h3>The Great Conqueror</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/the-great-conqueror-chapter-22-bahasa-indonesia/"> Chapter 22</a> <i>16 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/the-great-conqueror-chapter-21-bahasa-indonesia/"> Chapter 21</a> <i>1 week ago</i> </span> <span class="cli"><a href="https://mangashiro.net/the-great-conqueror-chapter-20-bahasa-indonesia/"> Chapter 20</a> <i>3 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="72742" class="series" href="https://mangashiro.net/manga/kitaku-tochuu-de-yome-to-musume-ga-dekita-n-dakedo-dragon-datta/" title="Kitaku Tochuu de Yome to Musume ga Dekita n dakedo, Dragon datta."><img width="230" height="328" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2018/08/Kitaku-Tochuu-de-Yome-to-Musume-ga-Dekita-n-dakedo-Dragon-datta.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="72742" class="series" href="https://mangashiro.net/manga/kitaku-tochuu-de-yome-to-musume-ga-dekita-n-dakedo-dragon-datta/" title="Kitaku Tochuu de Yome to Musume ga Dekita n dakedo, Dragon datta.">
+                                                    <h3>Kitaku Tochuu de Yome to Musume ga Dekita n dakedo, Dragon datta.</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/kitaku-tochuu-de-yome-to-musume-ga-dekita-n-dakedo-dragon-datta-chapter-1-bahasa-indonesia/"> Chapter 1</a> <i>20 hours ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="72738" class="series" href="https://mangashiro.net/manga/immortal-merchant/" title="Immortal Merchant"><img width="200" height="300" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2018/08/Immortal-Merchant.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="72738" class="series" href="https://mangashiro.net/manga/immortal-merchant/" title="Immortal Merchant">
+                                                    <h3>Immortal Merchant</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/immortal-merchant-chapter-1-bahasa-indonesia/"> Chapter 1</a> <i>20 hours ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="24493" class="series" href="https://mangashiro.net/manga/uchi-no-musume-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai/" title="Uchi no Musume no Tame naraba Ore wa Moshikashitara Maou mo Taoseru kamo Shirenai."><img width="245" height="350" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2017/03/For-My-Daughter.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="24493" class="series" href="https://mangashiro.net/manga/uchi-no-musume-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai/" title="Uchi no Musume no Tame naraba Ore wa Moshikashitara Maou mo Taoseru kamo Shirenai.">
+                                                    <h3>Uchi no Musume no Tame naraba Ore wa Moshikashitara Maou mo Taoseru kamo Shirenai.</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/uchi-no-musume-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-chapter-24-bahasa-indonesia/"> Chapter 24</a> <i>2 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/uchi-no-musume-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-chapter-23-bahasa-indonesia/"> Chapter 23</a> <i>1 week ago</i> </span> <span class="cli"><a href="https://mangashiro.net/uchi-no-musume-no-tame-naraba-ore-wa-moshikashitara-maou-mo-taoseru-kamo-shirenai-chapter-22-bahasa-indonesia/"> Chapter 22</a> <i>1 month ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="70494" class="series" href="https://mangashiro.net/manga/the-portal-of-wonderland/" title="The Portal of Wonderland"><img width="220" height="300" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/07/The-Portal-of-Wonderland.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="70494" class="series" href="https://mangashiro.net/manga/the-portal-of-wonderland/" title="The Portal of Wonderland">
+                                                    <h3>The Portal of Wonderland</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/the-portal-of-wonderland-chapter-21-bahasa-indonesia/"> Chapter 21</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/the-portal-of-wonderland-chapter-20-bahasa-indonesia/"> Chapter 20</a> <i>5 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/the-portal-of-wonderland-chapter-19-bahasa-indonesia/"> Chapter 19</a> <i>2 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="21173" class="series" href="https://mangashiro.net/manga/bokutachi-wa-benkyou-ga-dekinai/" title="Bokutachi wa Benkyou ga Dekinai"><img width="814" height="1280" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2017/03/Bokutachi-wa-Benkyou-ga-Dekinai-cvr-7.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> <span class="hot">Hot</span> </div>
+                                            <div class="lx">
+                                                <a rel="21173" class="series" href="https://mangashiro.net/manga/bokutachi-wa-benkyou-ga-dekinai/" title="Bokutachi wa Benkyou ga Dekinai">
+                                                    <h3>Bokutachi wa Benkyou ga Dekinai</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/bokutachi-wa-benkyou-ga-dekinai-chapter-64-bahasa-indonesia/"> Chapter 64</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/bokutachi-wa-benkyou-ga-dekinai-chapter-63-bahasa-indonesia/"> Chapter 63</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/bokutachi-wa-benkyou-ga-dekinai-chapter-62-bahasa-indonesia/"> Chapter 62</a> <i>3 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="37864" class="series" href="https://mangashiro.net/manga/kuro-no-souzou-shoukanshi/" title="Kuro no Souzou Shoukanshi"><img width="523" height="738" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2017/08/48zKWUW.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="37864" class="series" href="https://mangashiro.net/manga/kuro-no-souzou-shoukanshi/" title="Kuro no Souzou Shoukanshi">
+                                                    <h3>Kuro no Souzou Shoukanshi</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/kuro-no-souzou-shoukanshi-chapter-10-bahasa-indonesia/"> Chapter 10</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/kuro-no-souzou-shoukanshi-chapter-9-bahasa-indonesia/"> Chapter 9</a> <i>4 weeks ago</i> </span> <span class="cli"><a href="https://mangashiro.net/kuro-no-souzou-shoukanshi-chapter-8-bahasa-indonesia/"> Chapter 8</a> <i>2 months ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="71719" class="series" href="https://mangashiro.net/manga/when-night-falls/" title="When Night Falls"><img width="230" height="329" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2018/08/When-Night-Falls.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="71719" class="series" href="https://mangashiro.net/manga/when-night-falls/" title="When Night Falls">
+                                                    <h3>When Night Falls</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/when-night-falls-chapter-2-bahasa-indonesia/"> Chapter 2</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/when-night-falls-chapter-1-bahasa-indonesia/"> Chapter 1</a> <i>2 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="37475" class="series" href="https://mangashiro.net/manga/almadianos-eiyuuden/" title="Almadianos Eiyuuden"><img width="500" height="711" src="https://i1.wp.com/mangashiro.net/wp-content/uploads/2017/07/A29s9Cg.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="37475" class="series" href="https://mangashiro.net/manga/almadianos-eiyuuden/" title="Almadianos Eiyuuden">
+                                                    <h3>Almadianos Eiyuuden</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/almadianos-eiyuuden-chapter-11-bahasa-indonesia/"> Chapter 11</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/almadianos-eiyuuden-chapter-10-bahasa-indonesia/"> Chapter 10</a> <i>3 weeks ago</i> </span> <span class="cli"><a href="https://mangashiro.net/almadianos-eiyuuden-chapter-9-bahasa-indonesia/"> Chapter 9</a> <i>2 months ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="50263" class="series" href="https://mangashiro.net/manga/midari-ni-midara-na-kuroyukihime-online/" title="Midari ni Midara na Kuroyukihime Online"><img width="422" height="600" src="https://i1.wp.com/mangashiro.net/wp-content/uploads/2018/01/midari.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="50263" class="series" href="https://mangashiro.net/manga/midari-ni-midara-na-kuroyukihime-online/" title="Midari ni Midara na Kuroyukihime Online">
+                                                    <h3>Midari ni Midara na Kuroyukihime Online</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/midari-ni-midara-na-kuroyukihime-online-chapter-11-bahasa-indonesia/"> Chapter 11</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/midari-ni-midara-na-kuroyukihime-online-chapter-10-bahasa-indonesia/"> Chapter 10</a> <i>7 days ago</i> </span> <span class="cli"><a href="https://mangashiro.net/midari-ni-midara-na-kuroyukihime-online-chapter-9-bahasa-indonesia/"> Chapter 9</a> <i>1 month ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="30062" class="series" href="https://mangashiro.net/manga/chuuko-demo-koi-ga-shitai/" title="Chuuko demo Koi ga Shitai!"><img width="900" height="1281" src="https://i1.wp.com/mangashiro.net/wp-content/uploads/2017/03/CHUUKO.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="30062" class="series" href="https://mangashiro.net/manga/chuuko-demo-koi-ga-shitai/" title="Chuuko demo Koi ga Shitai!">
+                                                    <h3>Chuuko demo Koi ga Shitai!</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/chuuko-demo-koi-ga-shitai-chapter-28-bahasa-indonesia/"> Chapter 28</a> <i>21 hours ago</i> </span> <span class="cli"><a href="https://mangashiro.net/chuuko-demo-koi-ga-shitai-chapter-27-bahasa-indonesia/"> Chapter 27</a> <i>2 weeks ago</i> </span> <span class="cli"><a href="https://mangashiro.net/chuuko-demo-koi-ga-shitai-chapter-26-bahasa-indonesia/"> Chapter 26</a> <i>2 months ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="28350" class="series" href="https://mangashiro.net/manga/soul-land-iiithe-legend-of-the-dragon-king/" title="Soul Land III:The Legend of the Dragon King"><img width="250" height="370" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2017/03/soul-land-III.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="28350" class="series" href="https://mangashiro.net/manga/soul-land-iiithe-legend-of-the-dragon-king/" title="Soul Land III:The Legend of the Dragon King">
+                                                    <h3>Soul Land III:The Legend of the Dragon King</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/soul-land-iiithe-legend-of-the-dragon-king-chapter-17-bahasa-indonesia/"> Chapter 17</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/soul-land-iiithe-legend-of-the-dragon-king-chapter-16-bahasa-indonesia/"> Chapter 16</a> <i>1 month ago</i> </span> <span class="cli"><a href="https://mangashiro.net/soul-land-iiithe-legend-of-the-dragon-king-chapter-15-bahasa-indonesia/"> Chapter 15</a> <i>3 months ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="63202" class="series" href="https://mangashiro.net/manga/jujutsu-kaisen/" title="Jujutsu Kaisen"><img width="300" height="450" src="https://i0.wp.com/mangashiro.net/wp-content/uploads/2018/05/jujutsu-kaisen.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="63202" class="series" href="https://mangashiro.net/manga/jujutsu-kaisen/" title="Jujutsu Kaisen">
+                                                    <h3>Jujutsu Kaisen</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/jujutsu-kaisen-chapter-9-bahasa-indonesia/"> Chapter 9</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/jujutsu-kaisen-chapter-8-bahasa-indonesia/"> Chapter 8</a> <i>1 week ago</i> </span> <span class="cli"><a href="https://mangashiro.net/jujutsu-kaisen-chapter-7-bahasa-indonesia/"> Chapter 7</a> <i>3 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="67026" class="series" href="https://mangashiro.net/manga/spirit-sword-sovereign/" title="Spirit Sword Sovereign"><img width="800" height="1132" src="https://i0.wp.com/mangashiro.net/wp-content/uploads/2018/06/spirit-sword.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="67026" class="series" href="https://mangashiro.net/manga/spirit-sword-sovereign/" title="Spirit Sword Sovereign">
+                                                    <h3>Spirit Sword Sovereign</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/spirit-sword-sovereign-chapter-10-bahasa-indonesia/"> Chapter 10</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/spirit-sword-sovereign-chapter-9-bahasa-indonesia/"> Chapter 9</a> <i>1 week ago</i> </span> <span class="cli"><a href="https://mangashiro.net/spirit-sword-sovereign-chapter-8-bahasa-indonesia/"> Chapter 8</a> <i>1 week ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="49680" class="series" href="https://mangashiro.net/manga/onii-chan-wa-oshimai/" title="Onii-chan wa Oshimai"><img width="800" height="1130" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2018/01/onii-chan.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> </div>
+                                            <div class="lx">
+                                                <a rel="49680" class="series" href="https://mangashiro.net/manga/onii-chan-wa-oshimai/" title="Onii-chan wa Oshimai">
+                                                    <h3>Onii-chan wa Oshimai</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/onii-chan-wa-oshimai-chapter-9-bahasa-indonesia/"> Chapter 9</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/onii-chan-wa-oshimai-chapter-8-5-bahasa-indonesia/"> Chapter 8.5</a> <i>4 weeks ago</i> </span> <span class="cli"><a href="https://mangashiro.net/onii-chan-wa-oshimai-chapter-8-bahasa-indonesia/"> Chapter 8</a> <i>3 months ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="thumbx"> <a rel="24240" class="series" href="https://mangashiro.net/manga/soul-land-ii/" title="Soul Land II"><img width="220" height="300" src="https://i0.wp.com/mangashiro.net/wp-content/uploads/2017/03/Soul-Land-2-Cover.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></a> <span class="hot">Hot</span> </div>
+                                            <div class="lx">
+                                                <a rel="24240" class="series" href="https://mangashiro.net/manga/soul-land-ii/" title="Soul Land II">
+                                                    <h3>Soul Land II</h3>
+                                                </a>
+                                                <div class="chli"> <span class="cli"><a href="https://mangashiro.net/soul-land-ii-chapter-153-bahasa-indonesia/"> Chapter 153</a> <i>1 day ago</i> </span> <span class="cli"><a href="https://mangashiro.net/soul-land-ii-chapter-152-bahasa-indonesia/"> Chapter 152</a> <i>2 weeks ago</i> </span> <span class="cli"><a href="https://mangashiro.net/soul-land-ii-chapter-151-bahasa-indonesia/"> Chapter 151</a> <i>3 weeks ago</i> </span> </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="pagination"><span aria-current='page' class='page-numbers current'>1</span> <a class='page-numbers' href='https://mangashiro.net/page/2/'>2</a> <a class='page-numbers' href='https://mangashiro.net/page/3/'>3</a> <span class="page-numbers dots">&hellip;</span> <a class='page-numbers' href='https://mangashiro.net/page/26/'>26</a> <a class="next page-numbers" href="https://mangashiro.net/page/2/">Next &raquo;</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar_right">
+                        <div class="side">
+                            <div class="textwidget">
+                                <div id="fb-root"></div>
+                                <script>
+                                    (function(d, s, id) {
+                                        var js, fjs = d.getElementsByTagName(s)[0];
+                                        if (d.getElementById(id)) return;
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = 'https://connect.facebook.net/id_ID/sdk.js#xfbml=1&version=v2.12&appId=1752771295035623&autoLogAppEvents=1';
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }(document, 'script', 'facebook-jssdk'));
+                                </script>
+                                <div class="fb-page" data-href="https://www.facebook.com/mangashiro/" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                                    <blockquote cite="https://www.facebook.com/mangashiro/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/mangashiro/">Mangashiro Indonesia</a></blockquote>
+                                </div> <br> <br> <a title="GLOBAL 303" href="//www.global303.cc/" target="_blank" rel="noopener"><img src="//3.bp.blogspot.com/-Jk_cizKjoJI/WuiNc7273gI/AAAAAAABh3g/iZCoI7la4zQGnY6eQ-BTcClesxA6QTHUQCLcBGAs/s1600/global303.gif" alt="GLOBAL 303" border="1 solid #000" /></a> <br>
+                                <script id="cid0020000156834483875" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 300px;height: 350px;">
+                                    {
+                                        "handle": "mangashironet",
+                                        "arch": "js",
+                                        "styles": {
+                                            "a": "33ccff",
+                                            "b": 100,
+                                            "c": "000000",
+                                            "d": "000000",
+                                            "k": "33ccff",
+                                            "l": "33ccff",
+                                            "m": "33ccff",
+                                            "p": "10",
+                                            "q": "33ccff",
+                                            "r": 100,
+                                            "fwtickm": 1
+                                        }
+                                    }
+                                </script> <br> <a title="W88" href="https://affiliate.w88bro.com/Track.aspx?affiliateid=40457" target="_blank" rel="noopener"><img src="https://1.bp.blogspot.com/-XG8cuRWV8-I/W0VuuaOPj5I/AAAAAAAA4O4/UFcDGzGBuyA9QKvy85W3ekeT48BBDd1xACLcBGAs/s1600/manga223.gif" alt="W88" border="1 solid #000" /></a> <br> <a href="//goo.gl/irxBR2" target="_blank" title="Agen bola"><img src="//2.bp.blogspot.com/-MYbHXaV4vCs/WvUfrEj95kI/AAAAAAAAuKQ/4SqSiPg7Lns7T1C-5exNdSY0IXMBO4T1gCLcBGAs/s1600/acmbet.gif" border="1 solid #000" alt="taruhan bola " /></a> <br> <a href="https://mangashiro.net/contact-admin/" target="_blank" title="SLOT"><img src="https://1.bp.blogspot.com/-5V1jD1UzlIM/W2SYSaf3BCI/AAAAAAAA780/RhyJ5fFplxYRx_bLTciniB4UCz5tj1ylACLcBGAs/s1600/slot%2Biklan%2B300x250%2Bversi%2BIII.png" border="1 solid #000" alt="SLOT" /></a> <br> <a title="DISCORD" href="//discord.gg/fx8PR6c" target="_blank" rel="Dofollow noopener"><img style="margin-bottom: -5px;" src="//2.bp.blogspot.com/-sQM6xret3v4/Wo_1cfHMoQI/AAAAAAAAEoU/LnF0HWVjhOkChaTNDk1Z2eYYaF0VlKuWACLcBGAs/s1600/discord.png" alt="DISCORD" width="300" height="90" /></a> <br> <a href="http://pokerasik.com/" target="_blank" title="POKERWHITE, SITUS JUDI ONLINE, AGEN JUDI DEWA POKER ONLINE"><img src="//2.bp.blogspot.com/-oWtliXmco0U/WyqjT3CWXfI/AAAAAAAA02g/5FANa5Skxy0HliRmw33zPpB8s6n0Uo5LACLcBGAs/s1600/PW.gif" border="1 solid #000" alt="Dewa Poker Online" /></a> <br> <a title="BROMO POKER" href="//www.bromopoker.com/ref.php?ref=BROMOPKR88" target="_blank" rel="noopener"><img src="//4.bp.blogspot.com/-iPPZ1iymCSc/WugNVYw8qJI/AAAAAAAAp6c/gPzhWIESY2w_rZCY4H2Xpfkbo0OHjqpbQCLcBGAs/s1600/BROMO-300x250pX.gif" alt="BROMO POKER" border="1 solid #000" /></a> <br>
+                                <center><a href="http://medalpk.fun/ref.php?ref=MSN1-MEDAL" rel="Dofollow" title="MEDALPOKER" target="_blank"><img src="https://2.bp.blogspot.com/-MgzpTL3Ltjg/W0npddaon_I/AAAAAAAA4l0/L8mrGEPWD7crTAg5yTgMEJVjrlHW296BwCLcBGAs/s1600/MEDAL.FUN-120X600PX.gif" alt="MEDALPOKER" width="120" height="600" style="margin-bottom:-5px;"></a><a href="http://www.kartuaxa.com/ref.php?ref=ttw99" rel="Dofollow" title="KARTUPOKER" target="_blank"><img src="https://2.bp.blogspot.com/-MfCkCZ8XZqQ/Wzw5YG7REDI/AAAAAAAA3oI/9KQH4MezODEvZNtPiox2CEPz83vUuFuvwCLcBGAs/s1600/poker555-axakartu.gif" alt="KARTUPOKER" width="160" height="100%" style="margin-bottom:-5px;"></a></center> <br> <a href="http://www.ligahokie88.info/" target="_blank" title="LIGAHOKIE88"><img src="https://2.bp.blogspot.com/-6xH-6pD2C1o/W2PrJhWYcCI/AAAAAAAA7sU/s2WKdyu7doEu03ZLef4PNJp51aYVI4qsgCLcBGAs/s1600/Ligahokie-300x250-GIF.gif" border="1 solid #000" alt="LIGAHOKIE88" /></a></div>
+                        </div>
+                        <div class="side">
+                            <div class='serieslist'>
+                                <ul>
+                                    <li>
+                                        <div class="imgseries"><img width="800" height="1131" src="https://i3.wp.com/mangashiro.net/wp-content/uploads/2017/03/11.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></div>
+                                        <div class="leftseries">
+                                            <h2><a class="series" href="https://mangashiro.net/manga/tales-of-demons-and-gods/" rel="24467">Tales of Demons and Gods</a></h2> <span><b>Author</b>: Mad Snail</span> <span><b>Genres</b>: <a href="https://mangashiro.net/genres/action/" rel="tag">Action</a>, <a href="https://mangashiro.net/genres/fantasy/" rel="tag">Fantasy</a>, <a href="https://mangashiro.net/genres/shounen/" rel="tag">Shounen</a></span> </div>
+                                    </li>
+                                    <li>
+                                        <div class="imgseries"><img width="1432" height="2048" src="https://i2.wp.com/mangashiro.net/wp-content/uploads/2017/03/26841070_2018565658415359_8935620620942999203_o.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></div>
+                                        <div class="leftseries">
+                                            <h2><a class="series" href="https://mangashiro.net/manga/masamune-kun-no-revenge/" rel="22190">Masamune-kun no Revenge</a></h2> <span><b>Author</b>: Tiv (Art), Takeoka, Hazuki (Story)</span> <span><b>Genres</b>: <a href="https://mangashiro.net/genres/comedy/" rel="tag">Comedy</a>, <a href="https://mangashiro.net/genres/harem/" rel="tag">Harem</a>, <a href="https://mangashiro.net/genres/romance/" rel="tag">Romance</a>, <a href="https://mangashiro.net/genres/school/" rel="tag">School</a>, <a href="https://mangashiro.net/genres/shounen/" rel="tag">Shounen</a></span> </div>
+                                    </li>
+                                    <li>
+                                        <div class="imgseries"><img width="800" height="1120" src="https://i0.wp.com/mangashiro.net/wp-content/uploads/2017/03/star-martial.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></div>
+                                        <div class="leftseries">
+                                            <h2><a class="series" href="https://mangashiro.net/manga/star-martial-god-technique/" rel="24276">Star Martial God Technique</a></h2> <span><b>Author</b>: Author(s):Mad Snail</span> <span><b>Genres</b>: <a href="https://mangashiro.net/genres/action/" rel="tag">Action</a>, <a href="https://mangashiro.net/genres/adventure/" rel="tag">Adventure</a>, <a href="https://mangashiro.net/genres/fantasy/" rel="tag">Fantasy</a>, <a href="https://mangashiro.net/genres/martial-arts/" rel="tag">Martial Arts</a>, <a href="https://mangashiro.net/genres/shounen/" rel="tag">Shounen</a></span> </div>
+                                    </li>
+                                    <li>
+                                        <div class="imgseries"><img width="220" height="300" src="https://i1.wp.com/mangashiro.net/wp-content/uploads/2017/04/looking-for-father.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></div>
+                                        <div class="leftseries">
+                                            <h2><a class="series" href="https://mangashiro.net/manga/looking-for-a-father/" rel="30826">Looking for a Father</a></h2> <span><b>Author</b>: Dong Bi</span> <span><b>Genres</b>: <a href="https://mangashiro.net/genres/action/" rel="tag">Action</a>, <a href="https://mangashiro.net/genres/comedy/" rel="tag">Comedy</a>, <a href="https://mangashiro.net/genres/romance/" rel="tag">Romance</a>, <a href="https://mangashiro.net/genres/shounen/" rel="tag">Shounen</a></span> </div>
+                                    </li>
+                                    <li>
+                                        <div class="imgseries"><img width="814" height="1280" src="https://i1.wp.com/mangashiro.net/wp-content/uploads/2017/03/yuragisou-cvr-11.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" /></div>
+                                        <div class="leftseries">
+                                            <h2><a class="series" href="https://mangashiro.net/manga/yuragisou-no-yuuna-san/" rel="24622">Yuragisou no Yuuna-san</a></h2> <span><b>Author</b>: Miura, Tadahiro (Story & Art)</span> <span><b>Genres</b>: <a href="https://mangashiro.net/genres/comedy/" rel="tag">Comedy</a>, <a href="https://mangashiro.net/genres/ecchi/" rel="tag">Ecchi</a>, <a href="https://mangashiro.net/genres/harem/" rel="tag">Harem</a>, <a href="https://mangashiro.net/genres/romance/" rel="tag">Romance</a>, <a href="https://mangashiro.net/genres/shounen/" rel="tag">Shounen</a>, <a href="https://mangashiro.net/genres/supernatural/" rel="tag">Supernatural</a></span> </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <footer id="colophon" class="site-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter" role="contentinfo">
+                <div class="footermenu">
+                    <div class="menu-menu-tengah-container">
+                        <ul id="menu-menu-tengah" class="menu">
+                            <li id="menu-item-3567" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3567"><a href="/manga/Last-Game" itemprop="url">Last Game</a></li>
+                            <li id="menu-item-3573" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3573"><a href="/manga/Gun-x-Clover" itemprop="url">Gun X Clover</a></li>
+                            <li id="menu-item-3574" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3574"><a href="/manga/eromanga-sensei" itemprop="url">Ero Manga Sensei</a></li>
+                            <li id="menu-item-6571" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6571"><a href="https://mangashiro.net/manga/seishun-pop/" itemprop="url">Seishun Pop!</a></li>
+                            <li id="menu-item-6572" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6572"><a href="https://mangashiro.net/manga/hundred/" itemprop="url">Hundred</a></li>
+                            <li id="menu-item-6573" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6573"><a href="https://mangashiro.net/manga/koi-to-uso/" itemprop="url">Koi To Uso</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footercopyright"> <a href="//www.facebook.com/mangashiro/">Fp</a> | <a href="//mangashiro.net/faq/">FAQ</a> | <a href="//mangashiro.net/partner/">PARTNER</a> | <a href="http://kendipoker.net/">POKER ONLINE</a> | <a href="http://www.bethost24.co/">AGEN SBOBET</a> | <a href="http://kucingpoker.com/">DOMINOBET</a> | <a href="http://www.angel4d.net/">JUDI TOGEL</a> | <a href="http://www.telolet4d.net/">TOGEL HONGKONG</a> | <a href="http://www.livedrawhongkong.net/">LIVE DRAW HK</a> | <a href="http://www.totoarena.net/">King4d</a> | <a href="http://www.pokerku88.co/">POKER88</a> | <a href="http://www.poker5stars.com/">POKER ONLINE</a> | <a href="https://www.myidola.org/">JUDIONLINE</a> | <a href="http://www.interwin.biz/id/">JUDIBOLA</a> | <a href="http://idnation.net/">IDNATION</a> | <a href="http://nikitapoker.com/">POKER88</a> | <a href="http://www.nikitapoker.org/">POKERCC</a> | <a href="http://mwin77.com/">SBOBET</a> | <a href="http://sdsblotto88.com/">TOGEL</a> | <a href="http://pokerpelangi188.com/">POKER</a> | <a href="http://mw77ok.com/">JUDI ONLINE</a> | <a href="http://mw77top.com/">MAXBET</a> | <a href="http://mw77yes.com/">BOLA88</a> | <a href="http://joker188.com/">SLOT ONLINE</a> | <a href="//superwin77.net/">JUDI ONLINE</a> | <a href="http://www.ligakita.info/">QQ188</a> | <a href="http://www.ligahokie88.info/">BOLA88</a> | <a href="http://surgalive.co/">AGEN BOLA TERPERCAYA</a> | <a href="http://indodepo168.com//">JUDI ONLINE</a> | <a href="https://olenation.com/">AGEN BOLA ONLINE</a> | <a href="https://dapurjudi.com/">JUDI BOLA ONLINE</a> | <a href="http://bsport88.com/">JUDI BOLA</a> | <a href="https://smppoker88.net/">RAJAPOKER</a> | <a href="https://idrpoker88.co/">POKER88</a> | <a href="https://sbopk.net/">DEWAPOKER</a> | <a href="http://joker234.net/">JOKER123</a> | <a href="https://1xplay.com/en/">JUDIBOLA</a> | <a href="http://rajaremi.com/">JUDIPOKER</a> | <a href="http://nobartv.id/">NOBARTV</a> | <a href="http://pokerrolex.com/">DEWA POKER 88</a> | <a href="http://cintapoker88.com/">CINTAPOKER</a> | <a href="http://www.netpoker88.net/">POKER88</a> | <a href="http://www.234pkr.com/">POKER88</a> | <a href="http://www.rajabola99.org/">BOLA88</a> | <a href="http://www.ligapools.net/">TOGEL HONGKONG</a> <br/>Semua komik di website ini hanya preview dari komik aslinya, mungkin terdapat banyak kesalahan bahasa, nama tokoh, dan alur cerita. Untuk versi aslinya, silahkan beli komiknya jika tersedia di kotamu! Copyright © Baca Manga 2018, All rights reserved.</div>
+            </footer>
+        </div> <br>
+        <center>
+            <div id="histats_counter"></div>
+            <script type="text/javascript">
+                var _Hasync = _Hasync || [];
+                _Hasync.push(['Histats.start', '1,3430673,4,108,170,20,00000001']);
+                _Hasync.push(['Histats.fasi', '1']);
+                _Hasync.push(['Histats.track_hits', '']);
+                (function() {
+                    var hs = document.createElement('script');
+                    hs.type = 'text/javascript';
+                    hs.async = true;
+                    hs.src = ('//s10.histats.com/js15_as.js');
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+                })();
+            </script> <noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?3430673&101" alt="" border="0"></a></noscript> </center>
+        <script type="text/javascript">
+            (function($) {
+                $.popunder = function(sUrl) {
+                    var bSimple = $.browser.msie,
+                        run = function() {
+                            $.popunderHelper.open(sUrl, bSimple);
+                        };
+                    (bSimple) ? run(): window.setTimeout(run, 1);
+                    return $;
+                };
+
+                $.popunderHelper = {
+                    rand: function(name, rand) {
+                        var p = (name) ? name : 'pu_';
+                        return p + (rand === false ? '' : Math.floor(89999999 * Math.random() + 10000000));
+                    },
+
+                    open: function(sUrl, bSimple) {
+                        var _parent = self,
+                            sToolbar = (!$.browser.webkit && (!$.browser.mozilla || parseInt($.browser.version, 10) < 12)) ? 'yes' : 'no',
+                            sOptions,
+                            popunder;
+
+                        if (top != self) {
+                            try {
+                                if (top.document.location.toString()) {
+                                    _parent = top;
+                                }
+                            } catch (err) {}
+                        }
+
+                        var w = 40;
+                        var h = 40;
+                        var livew = screen.availWidth;
+                        var liveh = screen.availHeight;
+                        var showw = (w / 100) * livew;
+                        var showh = (h / 100) * liveh;
+                        //sOptions = 'toolbar=' + sToolbar + ',scrollbars=yes,location=yes,statusbar=yes,menubar=no,resizable=1,width=' + (screen.availWidth - 10).toString();
+                        //sOptions += ',height=' + (screen.availHeight - 122).toString() + ',screenX=0,screenY=0,left=0,top=0';
+
+                        sOptions = 'toolbar=' + sToolbar + ',scrollbars=yes,location=yes,statusbar=yes,menubar=no,resizable=1,width=' + showw.toString();
+                        sOptions += ',height=' + showh.toString() + ',screenX=0,screenY=0,left=0,top=0';
+
+                        popunder = _parent.window.open(sUrl, $.popunderHelper.rand(), sOptions);
+                        if (popunder) {
+                            popunder.blur();
+                            if (bSimple) {
+                                window.focus();
+                                try {
+                                    opener.window.focus();
+                                } catch (err) {}
+                            } else {
+                                popunder.init = function(e) {
+                                    with(e) {
+                                        (function() {
+                                            if (typeof window.mozPaintCount != 'undefined' || typeof navigator.webkitGetUserMedia === "function") {
+                                                var x = window.open('about:blank');
+                                                x.close();
+                                            }
+
+                                            try {
+                                                opener.window.focus();
+                                            } catch (err) {}
+                                        })();
+                                    }
+                                };
+                                popunder.params = {
+                                    url: sUrl
+                                };
+                                popunder.init(popunder);
+                            }
+                        }
+
+                        return true;
+                    }
+                };
+            })(jQuery);
+
+            function iframepopupwidow(sUrl) {
+                jQuery('#openpopunder').ready(function() {
+                    jQuery.popunder(sUrl);
+                });
+            }
+        </script>
+        <script type="text/javascript">
+            document.onclick = function() {
+                //alert(e.pageX);
+                //alert(e.pageY);
+                var openpopunder = document.getElementById("openpopunder");
+                if (openpopunder.value == "YES") {
+                    document.getElementById("openpopunder").value = "NO";
+                    iframepopupwidow('https://bit.ly/2vchcZN');
+                }
+            };
+        </script> <input name="openpopunder" id="openpopunder" value="YES" type="hidden"> <a href="#" class="scrollToTop"><span class="dashicons dashicons-arrow-up-alt2"></span></a>
+        <script type="text/javascript">
+            $('.score').each(function(index, el) {
+                var $El = $(el);
+                $El.barrating({
+                    theme: 'fontawesome-stars',
+                    readonly: true,
+                    initialRating: $El.attr('data-current-rating')
+                });
+            });
+        </script>
+        <div id="teaser1" style="width:autopx; height:0; text-align:left; display: scroll;position:fixed; top:35px;left:0px;">
+            <div align="center"><a href="#" id="close-teaser" onclick="document.getElementById('teaser1').style.display = 'none';" style="cursor:pointer;"><img src="https://3.bp.blogspot.com/-wgV2RBU-PhQ/Uj-t8ybhmSI/AAAAAAAAFbM/GVhtnL_hY68/s1600/close.png" /></a></div>
+            <div id="teaser1" style="width:autopx; height:0; text-align:left; display: scroll;position:fixed; top:0px;left:0px;">
+                <div align="center"><a href="#" id="close-teaser" onclick="document.getElementById('teaser1').style.display = 'none';" style="cursor:pointer;"><img src="https://3.bp.blogspot.com/-wgV2RBU-PhQ/Uj-t8ybhmSI/AAAAAAAAFbM/GVhtnL_hY68/s1600/close.png" /></a></div> <a href="http://semuajp.com/" title="Judi Poker" target="_blank"><img src="https://1.bp.blogspot.com/-yg29HfaVz0s/W1NXk-DspWI/AAAAAAAA5yE/Vqdx5UIu6D0hbL9oWWtFvVrCuUG_5agggCLcBGAs/s1600/160x600%2B%25281%2529.gif" width="100px" height="600px" rel="nofollow" /></a> </div>
+        </div>
+        <div id="teaser2" style="width:autopx; height:0; text-align:right; display: scroll;position:fixed; top:35px;right:0px;">
+            <div align="center"><a href="#" id="close-teaser" onclick="document.getElementById('teaser2').style.display = 'none';" style="cursor:pointer;"><img src="https://3.bp.blogspot.com/-wgV2RBU-PhQ/Uj-t8ybhmSI/AAAAAAAAFbM/GVhtnL_hY68/s1600/close.png" /></a></div>
+            <div id="teaser2" style="width:autopx; height:0; text-align:left; display: scroll;position:fixed; top:0px;right:0px;">
+                <div align="center"><a href="#" id="close-teaser" onclick="document.getElementById('teaser2').style.display = 'none';" style="cursor:pointer;"><img src="https://3.bp.blogspot.com/-wgV2RBU-PhQ/Uj-t8ybhmSI/AAAAAAAAFbM/GVhtnL_hY68/s1600/close.png" /></a></div> <a href="https://1xliga.net/id/" title="Judi Bola" target="_blank"><img src="https://3.bp.blogspot.com/-O4GMkfma3hM/W1NXxXcY3KI/AAAAAAAA5yI/O4SO0UdbuGczeErYJbr8KfftSa2AGJw0wCLcBGAs/s1600/160X600.gif" width="100px" height="600px" rel="nofollow" /></a> </div>
+        </div>
+        <script type='text/javascript'>
+            /* <![CDATA[ */
+            var countVars = {
+                "disqusShortname": "mangashiro-net"
+            };
+            /* ]]> */
+        </script>
+        <script type='text/javascript' src='https://mangashiro.net/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.16'></script>
+        <script type='text/javascript' src='https://mangashiro.net/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+        <script type='text/javascript' src='https://mangashiro.net/wp-content/themes/mangareader/assets/js/search.js?ver=4.9.8'></script>
+</body>
+
+</html>
+
+<!-- Cache Enabler by KeyCDN @ 20.08.2018 17:39:50 (html gzip) -->
